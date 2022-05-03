@@ -84,9 +84,9 @@ You may cite this repository in the following way:
 
 ## Licence
 
-    CellNet is released under the GNU General Public Licence, version 3 or later.
+CellNet is released under the GNU General Public Licence, version 3 or later.
 
 
 ## Acknowledgements
 
-    Some parts of the framework have been programmed by [Ana Peleteiro](https://de.linkedin.com/in/anapeleteiro), when performing her remarkable PhD. Thesis.
+Some parts of the framework have been programmed by [Ana Peleteiro](https://de.linkedin.com/in/anapeleteiro), when performing her remarkable PhD. Thesis.
