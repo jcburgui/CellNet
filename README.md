@@ -6,7 +6,7 @@ Cellular Network is a free to use open-source Java-based software, developed by 
 ## Table of Contents
 1. [CellNet Basic Features](#cellnet-basic-features)
 2. [How to use CellNet](#how-to-use-cellnet)
-3. [CellNet Role in the Book "Self-organizing Coalitions for managing Complexity"](#cellnet-and-the-book-self-organizing-coalitions-for-managing-complexity)
+3. [CellNet and the Book "Self-organizing Coalitions for managing Complexity"](#cellnet-and-the-book-self-organizing-coalitions-for-managing-complexity)
 4. [CellNet Snapshots](#CellNet-Snapshots)
 5. [Citing](#citing)
 6. [License](#licence)
