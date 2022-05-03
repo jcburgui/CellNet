@@ -89,4 +89,4 @@ You may cite this repository in the following way:
 
 ## Acknowledgements
 
-    Some parts of the framework have been programmed by Ana Peleteiro when performing her PhD. Thesis.
+    Some parts of the framework have been programmed by [Ana Peleteiro](https://de.linkedin.com/in/anapeleteiro), when performing her remarkable PhD. Thesis.
