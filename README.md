@@ -51,7 +51,7 @@ Following the book, the readers can test the simulations by means of:
 
 ## CellNet Snapshots
 
-Some pictures obtained from the framework on some games:
+Find next some images describing the framework shape, and how to configure networks and games:
 
 - A Framework snapshot with the coalition spatial IPD game
 
@@ -65,9 +65,6 @@ Some pictures obtained from the framework on some games:
 
 ![Network Parameter Window](images/NetParamWindow.png)
 
-- Payoff Matrix Window
-
-![NPayoff Matrix Window](images/PayOffMatrixWindow.png)
 
 
 
