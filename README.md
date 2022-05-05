@@ -14,8 +14,6 @@ Cellular Network is a free to use open-source Java-based software, developed by 
 
 
 ## CellNet Basic Features
-CellNet has its origins in 2003, a time were most of the simulators were too complex or do not provide enough tools to comfortably manage cellular automata networks and evolutionary game theory simulations in Java with user-friendly interfaces.
-
 CellNet works in two modes: i) using a graphical user interface (GUI) for doing micro-simulations or ii) using a batch mode for doing macro-simulations. CellNet also provides support for:
 
 - Visualizing the whole set of cells and their state along each simulation iteration.
