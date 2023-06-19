@@ -1,0 +1,57 @@
+
+	VERSION LOG
+
+
+VERSION 2020 (June 2020)
+  + Corrected an error concerning rewiring in GameHDPT.java.
+  + The creation of SmallWorld nets is redefined and some variables renamed:
+    - dRadio -> dSpatialRadio
+    - dProbSmallNets -> dProbSmallWorld
+    - oVectorCells -> oCellVector
+    - oLineCell -> oCellLine
+
+
+  + We move the learning variables from Game.java to Brain.java (refactoring GameCoaPrediction.java).
+  + We remove GamePM1_IPDNet.java, keeping the original GameIPDNet.java
+    - JPanelWindow uses BorderLayout to show the information in a simpler way.
+    - The input of files for CoaPrediction has been modified to use only files from "./input/" folder.
+    - DlgInfoCell for CoaPrediction provides more relevant information about cells.
+    - VisorWorld shows a reduced set of colors per times being a BMU, but more illustrative.
+    - The REM phase is applied to non-BMU cells to:
+        a) Rewire to high BMUs (SOM). 
+        b) Join the best coalition (CASOM).
+	
+
+VERSION 2019 (May 2019)
+  + Besides taxes, we include shares in GameHolonMAES.java to allow for sharing the leader benefits.
+  + A new game holonLife is HolonALife (HAL) designed.
+  + The game holonMAES is redesigned as a combination of the HDTP and the AAMAS 2009.
+  + The game GameSpatialIPD.java is renamed as GameNetIPD.java as it now deals with complex nets.
+  + A new Game GamePM_1_NetIPD.java with with Probabilistic Memory-one strategies is implemented.
+  + DlgConf dialogs are reformed to simplify the access to simulation parameters.
+  + Many minor improvements are included in the CellNet code.
+  + A error at Cell.java is corrected: constructor Cell (String sIdAux, int iCellTypeAux, int iActionAux) did not initialize
+    properly the values of iPosX and iPosY per Cell.
+  + Introducing a bDEBUG variable in Game.java to print info about a particular Cell selected with DlgInfoCell.java.
+  + Introducing a new menu item in File to print information about the games.
+ 
+  
+
+VERSION 2018.1 (October 2018)
+  + The games GameSIPD and GameHDPT are split in different folders (packages).
+  + iBatchMode is transformed into bBatchMode and moved from MainWindow.java to Game.java
+  + The learning methods are moved from Cell.java to a new package machineLearning, which contains a class Brain.java providing the service.
+  + A new game holonMAES is introduced for modeling Multi-Agent Economic Simulation with holons.
+    - The incomes are dependent from the spatial position.
+    - There is a buffer with the payoff, so the earnings disappear after a certain time.
+
+
+VERSION 2018 (July 2018)
+  + The game MetaCoaLife is introduced to give support to the holon hierarchy.
+  + The method oRecGetLeader() from CellCoa.java is adapted to support metacoalitions and now is denoted as oGetLeaderExt().
+  + The recursive method oRecGetMetaLeader() is introduced to search over the coalition hierarchy.
+  - Note: the basic change is that a cell can be a leader and a coalition member at the same time.
+
+
+
+
